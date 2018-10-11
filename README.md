@@ -22,13 +22,13 @@ Update system packages and ensure virtualenv is installed:
 
 $ sudo apt-get update
 $ sudo apt-get -y install python-virtualenv
-Make sure the local ImageCoin and ImageCash daemon running is at least version 12.1 (120100)
+Make sure the local ImageCoin version 13.1.2 (12009) and ImageCash daemon running is at least version 13.1 (12008)
 
 $ ImageCoin and ImageCash-cli getinfo | grep version
 2. Install Sentinel
 Clone the Sentinel repo and install Python dependencies.
 
-$ git clone https://github.com/mceme/Sentinel/sentinel.git && cd sentinel
+$ git clone https://github.com/mceme/Sentinel.git && cd sentinel
 $ virtualenv ./venv
 $ ./venv/bin/pip install -r requirements.txt
 3. Set up Cron
