@@ -6,7 +6,7 @@ An all-powerful toolset for Imagecoin.
 
 Sentinel is an autonomous agent for persisting, processing and automating Imagecoin V16.1 governance objects and tasks, and for expanded functions in the upcoming Imagecoin.
 
-Sentinel is implemented as a Python application that binds to a local version 16.1 ImageCoind instance on each ImageCoin V16.1 Masternode.
+Sentinel is implemented as a Python application that binds to a local version 130102 ImageCoind instance on each ImageCoin 130102 Masternode.
 
 This guide covers installing Sentinel onto an existing 16.1 Masternode in Ubuntu 16.04 / 18.04.
 
@@ -23,7 +23,7 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local ImageCoin daemon running is at least version 16.1 (160100)
+Make sure the local ImageCoin daemon running is at least version 130102 (130102)
 
     $ ImageCoin-cli getinfo | grep version
 
