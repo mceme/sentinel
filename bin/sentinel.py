@@ -6,7 +6,7 @@ import init
 import config
 import misc
 #from dashd import DashDaemon
-from sibcoind import SibcoinDaemon
+#from sibcoind import SibcoinDaemon
 from ImageCoind import ImageCoinDaemon
 from models import Superblock, Proposal, GovernanceObject, Watchdog
 from models import VoteSignals, VoteOutcomes, Transient
