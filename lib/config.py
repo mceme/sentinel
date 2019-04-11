@@ -3,7 +3,6 @@
 """
 import sys
 import os
-
 from img_config import ImageCoinConfig
 
 default_sentinel_config = os.path.normpath(

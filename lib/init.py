@@ -92,7 +92,7 @@ def has_imagecoin_conf():
     except IOError as e:
         print(e)
 
-    return valid_imagecoin_conf    
+    return valid_imagecoin_conf
 
 def process_args():
 
