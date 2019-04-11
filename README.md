@@ -6,9 +6,9 @@ An all-powerful toolset for Sibcoin.
 
 Sentinel is an autonomous agent for persisting, processing and automating Imagecoin V16.1 governance objects and tasks, and for expanded functions in the upcoming Imagecoin.
 
-Sentinel is implemented as a Python application that binds to a local version 16.1 sibcoind instance on each Sibcoin V16.1 Masternode.
+Sentinel is implemented as a Python application that binds to a local version 16.1 ImageCoind instance on each ImageCoin V16.1 Masternode.
 
-This guide covers installing Sentinel onto an existing 16.1 Masternode in Ubuntu 14.04 / 16.04.
+This guide covers installing Sentinel onto an existing 16.1 Masternode in Ubuntu 16.04 / 18.04.
 
 ## Installation
 
