@@ -16,7 +16,7 @@ from dashd import DashDaemon
 
 class ImageCoinDaemon(DashDaemon):
 
- @classmethod
+    @classmethod
     def from_imagecoin_conf(self, imagecoin_dot_conf):
         from img_config import ImageCoinConfig
         config_text = ImageCoinConfig.slurp_config_file(imagecoin_dot_conf)
