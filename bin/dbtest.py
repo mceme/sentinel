@@ -10,11 +10,13 @@ from models import Superblock, Proposal, GovernanceObject, Setting, Signal, Vote
 from models import VoteSignals, VoteOutcomes
 from peewee import PeeweeException  # , OperationalError, IntegrityError
 #from dashd import DashDaemon
-from sibcoind import SibcoinDaemon
+#from sibcoind import SibcoinDaemon
+from ImageCoind import ImageCoinDaemon
 import dashlib
 from decimal import Decimal
 #dashd = DashDaemon.from_dash_conf(config.dash_conf)
-sibcoind = SibcoinDaemon.from_sibcoin_conf(config.sibcoin_conf)
+#sibcoind = SibcoinDaemon.from_sibcoin_conf(config.sibcoin_conf)
+ImageCoind = ImageCoinDaemon.from_sibcoin_conf(config.sibcoin_conf)
 import misc
 # ==============================================================================
 # do stuff here
@@ -41,7 +43,7 @@ pr = Proposal(
 # also, create the `within_window` or similar method & use that.
 #
 bh = 131112
-bh_epoch = sibcoind.block_height_to_epoch(bh)
+bh_epoch = ImageCoind.block_height_to_epoch(bh)
 
 fudge = 72000
 window_start = 1483689082 - fudge

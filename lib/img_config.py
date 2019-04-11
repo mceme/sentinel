@@ -8,7 +8,7 @@ from misc import printdbg
 from dash_config import DashConfig
 
 
-class ImagecoinConfig(DashConfig):
+class ImageCoinConfig(DashConfig):
 
     @classmethod
     def get_rpc_creds(self, data, network='mainnet'):
