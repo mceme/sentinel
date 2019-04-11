@@ -1,10 +1,10 @@
-# Sibcoin Sentinel
+# Imagecoin Sentinel
 
 An all-powerful toolset for Sibcoin.
 
 [![Build Status](https://travis-ci.org/dashpay/sentinel.svg?branch=master)](https://travis-ci.org/dashpay/sentinel)
 
-Sentinel is an autonomous agent for persisting, processing and automating Sibcoin V16.1 governance objects and tasks, and for expanded functions in the upcoming Sibcoin V17 release (Evolution).
+Sentinel is an autonomous agent for persisting, processing and automating Imagecoin V16.1 governance objects and tasks, and for expanded functions in the upcoming Imagecoin.
 
 Sentinel is implemented as a Python application that binds to a local version 16.1 sibcoind instance on each Sibcoin V16.1 Masternode.
 
@@ -23,9 +23,9 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local Sibcoin daemon running is at least version 16.1 (160100)
+Make sure the local ImageCoin daemon running is at least version 16.1 (160100)
 
-    $ sibcoin-cli getinfo | grep version
+    $ ImageCoin-cli getinfo | grep version
 
 ### 2. Install Sentinel
 
@@ -51,13 +51,13 @@ Test the config by runnings all tests from the sentinel folder you cloned into
 
     $ ./venv/bin/py.test ./test
 
-With all tests passing and crontab setup, Sentinel will stay in sync with sibcoind and the installation is complete
+With all tests passing and crontab setup, Sentinel will stay in sync with ImageCoind and the installation is complete
 
 ## Configuration
 
-An alternative (non-default) path to the `sibcoin.conf` file can be specified in `sentinel.conf`:
+An alternative (non-default) path to the `imagecoin.conf` file can be specified in `sentinel.conf`:
 
-    sibcoin_conf=/path/to/sibcoin.conf
+    imagecoin_conf=/path/to/imagecoin.conf
 
 ## Troubleshooting
 
@@ -85,4 +85,4 @@ Specifically:
 
 ### License
 
-Released under the MIT license, under the same terms as Sibcoin Core itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as Imagecoin Core itself. See [LICENSE](LICENSE) for more info.
