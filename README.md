@@ -31,7 +31,7 @@ Make sure the local ImageCoin daemon running is at least version 130102 (130102)
 
 Clone the Sentinel repo and install Python dependencies.
 
-    $ git clone https://github.com/mceme/Sentinel.git && cd sentinel
+    $ git clone https://github.com/mceme/sentinel.git && cd sentinel
     $ virtualenv ./venv
     $ ./venv/bin/pip install -r requirements.txt
 
