@@ -1,6 +1,6 @@
 # Imagecoin Sentinel
 
-An all-powerful toolset for Sibcoin.
+An all-powerful toolset for Imagecoin.
 
 [![Build Status](https://travis-ci.org/dashpay/sentinel.svg?branch=master)](https://travis-ci.org/dashpay/sentinel)
 
