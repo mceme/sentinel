@@ -50,7 +50,7 @@ In the crontab editor, add the lines below, replacing '/home/YOURUSERNAME/sentin
 
 Test the config by runnings all tests from the sentinel folder you cloned into
 
-    $ ./venv/bin/py.test ./test
+    $ ./venv/bin/python bin/sentinel.py
 
 With all tests passing and crontab setup, Sentinel will stay in sync with ImageCoind and the installation is complete
 
